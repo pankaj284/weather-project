@@ -7,7 +7,7 @@ export default function SerarchBox({ setWeatherInfo }) {
 
     let [city, setCity] = useState("");
 
-    const API_URL = "http://api.openweathermap.org/data/2.5/weather"
+    const API_URL = "https://api.openweathermap.org/data/2.5/weather"
     const API_KEY = "567b87c293985308ce73560dfc4d91e3"
 
     let getWeather = () => {

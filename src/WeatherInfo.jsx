@@ -37,7 +37,7 @@ export default function WeatherInfo({ info }) {
                         <CardMedia
                             component="img"
                             height="140"
-                            image={weather_img[info.main]}
+                            image={weather_img[info.main] || weather_img.default}
                             alt="green iguana"
                         />
                         <CardContent>
